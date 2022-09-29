@@ -57,6 +57,8 @@ public class MergeLeafTree {
 
         root7.right = root8;
 
+        PrintTreeUtil.show(root4);
+
         MergeLeafTree mergeLeafTree = new MergeLeafTree();
         TreeNode treeNode = mergeLeafTree.mergeLeafTree(root4);
 
